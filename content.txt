@@ -1,0 +1,17 @@
+MLOps Tutorials 
+
+1. MLOps Tutorial #1: Intro to Continuous Integration for ML
+1. https://www.youtube.com/watch?v=9BgIDqAzfuA
+1. https://github.com/cristian-dinu-69/MLOps_Git_Wine
+
+We'll be using:
+* GitHub Actions: https://github.com/features/actions
+* CML: https://github.com/iterative/cml
+
+Resources:
+* Code: https://github.com/andronovhopf/wine
+* GitLab support: https://github.com/iterative/cml/wiki
+
+Have a use case from your own data science/machine learning project that you'd like to explore? Tell us, and we might make a video tutorial about it!
+
+🧑🏽‍💻 To learn more. about our tools, take our free online course at https://learn.iterative.ai
