@@ -15,3 +15,20 @@ Resources:
 Have a use case from your own data science/machine learning project that you'd like to explore? Tell us, and we might make a video tutorial about it!
 
 🧑🏽‍💻 To learn more. about our tools, take our free online course at https://learn.iterative.ai
+
+2. MLOps Tutorial #2: When data is too big for Git
+2. https://www.youtube.com/watch?v=kZKAuShWF0s&t=90s
+2. #### missing github repo###
+
+We'll be using:
+* Git & GitHub
+* Free Google Drive storage
+* DVC
+
+Resources:
+* Code: https://github.com/elleobrien/mlops_t...
+* DVC "Getting Started" docs: https://dvc.org/doc/start
+
+Questions? Comments? Let us know! We'll do our best to answer any technical questions.
+
+🧑🏽‍💻 To learn more. about our tools, take our free online course at https://learn.iterative.ai
