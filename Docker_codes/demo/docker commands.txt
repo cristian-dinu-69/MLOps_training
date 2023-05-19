@@ -118,7 +118,7 @@ layers presented in an image
 # docker pull nginxiner based on the image
 
 # docker history nginx
-
+ 
 
 
 downloading an image without creating a container based on the image
@@ -126,5 +126,37 @@ downloading an image without creating a container based on the image
 # docker history nginx
 
 # docker images --no-trunc
+
+tag an image
+
+docker tag nginx:latest nginx:my_blog_stable
+# created an alias
+
+build an image
+# docker build -t my_nginx . # important punctl la sfarsit, -t specify a tag
+
+run it as a container
+
+# docker run -dit my_nginx
+
+view history of the image
+# docker history my_nginx
+
+remove an image
+# docker rmi nginx:my_blog_stable
+
+remove dangling images
+# docker image prune
+
+great care when using following:
+ # docker system prune -a
+
+# docker system df
+disk space docker is using
+
+# exercises_1
+
+
+
 
 
