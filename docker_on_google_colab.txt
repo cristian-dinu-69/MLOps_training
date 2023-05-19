@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/62238690/running-docker-on-google-colab
+https://gist.github.com/mwufi/6718b30761cd109f9aff04c5144eb885
+https://anvil.works/learn/tutorials/google-colab-web-service
+https://www.appsloveworld.com/docker/100/8/running-docker-on-google-colab?utm_content=cmp-true
+running:
+    https://colab.research.google.com/drive/1Lmbkc7v7XjSWK64E3NY1cw7iJ0sF1brl
