@@ -113,4 +113,18 @@ help
 
 Managing container Images
 
+layers presented in an image
+
+# docker pull nginxiner based on the image
+
+# docker history nginx
+
+
+
+downloading an image without creating a container based on the image
+
+# docker history nginx
+
+# docker images --no-trunc
+
 
