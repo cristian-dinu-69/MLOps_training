@@ -1,0 +1,116 @@
+# docker run -dit debian
+d detach
+i interactive
+t associates a t terminal
+# docker ps
+status
+# docker stop 433c
+# docker stop cranky_chatterjee
+stop the container
+
+##### next how NOT to run a debian container #####
+# docker run debian
+
+# docker run -d -i -t debian
+
+what docker downloaded into the computer
+# docker images
+
+inspect docker images
+# docker inspect 9c7a54a9a43c
+
+[
+    {
+        "Id": "sha256:9c7a54a9a43cca047013b82af109fe963fde787f63f9e016fdc3384500c2823d",
+        "RepoTags": [
+            "hello-world:latest"
+        ],
+        "RepoDigests": [
+            "hello-world@sha256:fc6cf906cbfa013e80938cdf0bb199fbdbb86d6e3e013783e5a766f50f5dbce0"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2023-05-04T17:37:03.872958712Z",
+        "Container": "347ca68872ee924c4f9394b195dcadaf591d387a45d624225251efc6cb7a348e",
+        "ContainerConfig": {
+            "Hostname": "347ca68872ee",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/hello\"]"
+            ],
+            "Image": "sha256:62a15619037f3c4fb4e6ba9bd224cba3540e393a55dc52f6bebe212ca7b5e1a7",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.23",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/hello"
+            ],
+            "Image": "sha256:62a15619037f3c4fb4e6ba9bd224cba3540e393a55dc52f6bebe212ca7b5e1a7",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 13256,
+        "VirtualSize": 13256,
+        "GraphDriver": {
+            "Data": {
+                "MergedDir": "/var/lib/docker/overlay2/c4d2c5f7a705e686d55211502da362dc0d7f5eb0893ee8c6f330147e90f1b7d4/merged",
+                "UpperDir": "/var/lib/docker/overlay2/c4d2c5f7a705e686d55211502da362dc0d7f5eb0893ee8c6f330147e90f1b7d4/diff",
+                "WorkDir": "/var/lib/docker/overlay2/c4d2c5f7a705e686d55211502da362dc0d7f5eb0893ee8c6f330147e90f1b7d4/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:01bb4fce3eb1b56b05adf99504dafd31907a5aadac736e36b27595c8b92f07f1"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+] 
+
+help
+
+# docker prune --help
+
+Managing container Images
+
+
