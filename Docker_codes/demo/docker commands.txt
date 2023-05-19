@@ -156,6 +156,42 @@ disk space docker is using
 
 # exercises_1
 
+in order to download, or “pull”, the “jenkins” container image, use the following command:
+docker pull jenkins/jenkins:lts
+
+Download the "2-alpine" version of this image instead of the default “latest” image:
+docker pull httpd:2-alpine
+
+This image is actually called “httpd.” You can determine the
+name of the image by searching for on the command line with "docker search TERM" or by
+searching on https://hub.docker.com.
+
+# docker search TERM | grep apache
+
+visit this page on Docker Hub to get a working tag:
+https://hub.docker.com/_/httpd?tab=tags
+
+Check the images are present
+Let’s list the two images that we downloaded:
+
+# docker images
+
+Check to see how much disk space all of images combined are using.
+# docker system df
+
+Now delete each of the two images.
+To delete Jenkins use this command:
+
+# docker rmi jenkins/jenkins
+
+For Apache we have to declare the tag explicitly or the “rmi” command won’t work.
+# docker rmi httpd:2-alpine
+
+# docker images
+
+# END exercises_1
+
+
 
 
 
